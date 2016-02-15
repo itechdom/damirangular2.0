@@ -1,0 +1,40 @@
+<div layout>
+<div flex="50" class="md-padding">
+
+  <div class="product-images">
+    <img ng-src="{{img}}"
+         class="product"
+         ng-repeat="img in product.images"
+         ng-class="{active: mainImageUrl==img}">
+  </div>
+  <div>
+    <h1>{{product.name}}</h1>
+    <div class="md-padding">
+    <ul class="product-thumbs" >
+      <li ng-repeat="img in product.images">
+        <img ng-src="{{img}}" ng-click="setImage(img)">
+      </li>
+    </ul>
+
+
+  </div>
+</div>
+</div>
+<div flex="50" class="specs md-padding" flex layout-sm="column" layout-align="center center">
+  <h2>Vehicle Details</h2>
+			<li class="md-raised md-button" flex="50"><span class="">Mileage</span><span class="md-button md-warn">{{product.mileage}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Body Style</span><span class="md-button md-warn">{{product.bodystyle}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Exterior Color</span><span class="md-button md-warn">{{product.color}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Stock #</span><span class="md-button md-warn">{{product.stock}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">VIN</span><span class="md-button md-warn">{{product.vin}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Fuel</span><span class="md-button md-warn">{{product.fuel}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Transmission</span><span class="md-button md-warn">{{product.transmission}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Drivetrain</span><span class="md-button md-warn">{{product.drivetrain}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Doors</span><span class="md-button md-warn">{{product.doors}}</span></li>
+			<li class="md-raised md-button md-ink-ripple"><span class="">Engine</span><span class="md-button md-warn">{{product.engine}}</span></li>
+      <md-card-actions layout="row" flex layout-align="center center">
+        <span class="" layout-align="left">Price:{{product.price|currency}}</span>
+      </md-card-actions>
+      <ngcart-addtocart id="{{product.name}}" name="{{product.name}}" price="{{product.price}}" quantity="1" quantity-max="5" layout layout-align="center center"></ngcart-addtocart>
+</div>
+</div>

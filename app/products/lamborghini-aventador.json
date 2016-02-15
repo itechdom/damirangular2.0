@@ -1,0 +1,23 @@
+{
+    "mileage":"169",
+    "color":"Bianco Isis",
+    "vin":"ZHWUC1ZD4FLA03781",
+    "transmission":"7-Speed Automatic with Auto-Shift",
+    "doors":"2",
+    "bodystyle":"Coupe",
+    "stock":"000I0028",
+    "fuel":"Gasoline",
+    "drivetrain":"AWD",
+    "engine":"6.5L V12 48V MPFI DOHC",
+    "sellersnotes": "2 Year FREE Vehicle Maintenance with the mention of Cars.com advertising. Colorado's largest Bankruptcy team Financing Plan with $0 - down payment",
+    "id": "lamborghini-aventador",
+    "images": [
+        "img/products/lamborghini-aventador.0.jpg",
+        "img/products/lamborghini-aventador.1.jpg",
+        "img/products/lamborghini-aventador.2.jpg",
+        "img/products/lamborghini-aventador.3.jpg",
+        "img/products/lamborghini-aventador.4.jpg"
+    ],
+    "name": "Lamborghini Aventador",
+    "price":"442255"
+}

@@ -1,0 +1,23 @@
+{
+    "mileage":"409",
+    "color":"Singapore Gray Metallic",
+    "vin":"WBS6C9C53ED467127",
+    "transmission":"7-Speed Automatic with Auto-Shift",
+    "doors":"4",
+    "bodystyle":"Sedan",
+    "stock":"1BPD41007",
+    "fuel":"Gasoline",
+    "drivetrain":"RWD",
+    "engine":"4.4L V8 32V GDI DOHC Twin Turbo",
+    "sellersnotes": "New Car Test Drive says...The M4 uses a new electromechanical steering system, with three modes that allow drivers to choose the level of steering effort. Though some might lament the end of hydraulic steering, we found the feel of the M4 to be precise and direct.. M Models trim, Singapore Grey Metallic exterior and Black interior. READ MORE!KEY FEATURES INCLUDELeather Seats, Navigation, Rear Air",
+    "id": "ram-2500-slt",
+    "images": [
+        "img/products/ram-2500-slt.0.jpg",
+        "img/products/ram-2500-slt.1.jpg",
+        "img/products/ram-2500-slt.2.jpg",
+        "img/products/ram-2500-slt.3.jpg",
+        "img/products/ram-2500-slt.4.jpg"
+    ],
+    "name": "RAM 2500 SLT",
+    "price":"1115560"
+}

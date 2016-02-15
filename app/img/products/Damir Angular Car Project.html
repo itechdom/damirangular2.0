@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost:8000/app/index.html#/phones -->
+<html lang="en" ng-app="phonecatApp" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <title>Damir Angular Car Project</title>
+    <link rel="stylesheet" href="./Damir Angular Car Project_files/main.css">
+    <script src="./Damir Angular Car Project_files/jquery.js"></script>
+    <script src="./Damir Angular Car Project_files/angular.js"></script>
+    <script src="./Damir Angular Car Project_files/angular-spinner.js"></script>
+    <script src="./Damir Angular Car Project_files/angular-payments.js"></script>
+    <script src="./Damir Angular Car Project_files/angular-animate.js"></script>
+    <script type="text/javascript" src="./Damir Angular Car Project_files/saved_resource"></script>
+    <script src="./Damir Angular Car Project_files/angular-route.js"></script>
+    <script src="./Damir Angular Car Project_files/angular-resource.js"></script>
+    <script src="./Damir Angular Car Project_files/ui-bootstrap-custom-tpls-1.1.2.min.js"></script>
+    <script src="./Damir Angular Car Project_files/app.js"></script>
+    <script src="./Damir Angular Car Project_files/animations.js"></script>
+    <script src="./Damir Angular Car Project_files/controllers.js"></script>
+    <script src="./Damir Angular Car Project_files/filters.js"></script>
+    <script src="./Damir Angular Car Project_files/services.js"></script>
+  </head>
+
+<body class="" style="">
+
+  <div class="view-container">
+    <!-- ngView:  --><div ng-view="" class="view-frame ng-scope"><div class="container-fluid ng-scope">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query" class="ng-pristine ng-untouched ng-valid">
+      Sort by:
+      <select ng-model="orderProp" class="ng-pristine ng-untouched ng-valid">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <!-- ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/porsche-cayenne-turbo-s" class="thumb"><img ng-src="img/phones/porsche-cayenne-turbo-s.0.jpg" alt="Porsche Cayenne Turbo S" src="./Damir Angular Car Project_files/porsche-cayenne-turbo-s.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/porsche-cayenne-turbo-s" class="ng-binding">Porsche Cayenne Turbo S</a>
+          <p class="ng-binding">White, 4 door, AWD, SUV, 8-Speed Automatic, 4.8L V8 32V GDI DOHC Twin Turbo, Stock# G14384.</p>
+          <p class="ng-binding">$137632</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/bmw-m6-gran-coupe-base" class="thumb"><img ng-src="img/phones/bmw-m6-gran-coupe-base.0.jpg" alt="BMW M6 Gran Coupe Base" src="./Damir Angular Car Project_files/bmw-m6-gran-coupe-base.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/bmw-m6-gran-coupe-base" class="ng-binding">BMW M6 Gran Coupe Base</a>
+          <p class="ng-binding">Singapore Gray Metallic, 4 door, RWD, Sedan, 7-Speed Automatic with Auto-Shift, 4.4L V8 32V GDI DOHC Twin Turbo, Stock# 1BPD41007</p>
+          <p class="ng-binding">$1115560</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/ram-2500-slt" class="thumb"><img ng-src="img/phones/ram-2500-slt.0.jpg" alt="RAM 2500 SLT" src="./Damir Angular Car Project_files/ram-2500-slt.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/ram-2500-slt" class="ng-binding">RAM 2500 SLT</a>
+          <p class="ng-binding">Flame Red Clearcoat, 4 door, 4WD, Crew Cab Pickup, 6-Speed Automatic, 6.7L I6 24V DDI OHV Turbo Diesel, Stock# 7664N.</p>
+          <p class="ng-binding">$51582</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/lamborghini-aventador" class="thumb"><img ng-src="img/phones/lamborghini-aventador.0.jpg" alt="Lamborghini Aventador" src="./Damir Angular Car Project_files/lamborghini-aventador.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/lamborghini-aventador" class="ng-binding">Lamborghini Aventador</a>
+          <p class="ng-binding">Bianco Isis, 2 door, AWD, Coupe, 7-Speed Automatic with Auto-Shift, 6.5L V12 48V MPFI DOHC, Stock# 000I0028</p>
+          <p class="ng-binding">$442255</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="thumb"><img ng-src="img/phones/acura-rlx-sport-hybrid-advance-package.0.jpg" alt="Acura Rlx Sport hybrid advance package" src="./Damir Angular Car Project_files/acura-rlx-sport-hybrid-advance-package.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="ng-binding">Acura Rlx Sport hybrid advance package</a>
+          <p class="ng-binding">Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.</p>
+          <p class="ng-binding">$66890</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="thumb"><img ng-src="img/phones/acura-rlx-sport-hybrid-advance-package.0.jpg" alt="Acura Rlx Sport hybrid advance package" src="./Damir Angular Car Project_files/acura-rlx-sport-hybrid-advance-package.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="ng-binding">Acura Rlx Sport hybrid advance package</a>
+          <p class="ng-binding">Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.</p>
+          <p class="ng-binding">$66890</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="thumb"><img ng-src="img/phones/acura-rlx-sport-hybrid-advance-package.0.jpg" alt="Acura Rlx Sport hybrid advance package" src="./Damir Angular Car Project_files/acura-rlx-sport-hybrid-advance-package.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="ng-binding">Acura Rlx Sport hybrid advance package</a>
+          <p class="ng-binding">Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.</p>
+          <p class="ng-binding">$66890</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="thumb"><img ng-src="img/phones/acura-rlx-sport-hybrid-advance-package.0.jpg" alt="Acura Rlx Sport hybrid advance package" src="./Damir Angular Car Project_files/acura-rlx-sport-hybrid-advance-package.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="ng-binding">Acura Rlx Sport hybrid advance package</a>
+          <p class="ng-binding">Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.</p>
+          <p class="ng-binding">$66890</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp --><li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail phone-listing ng-scope" style="">
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="thumb"><img ng-src="img/phones/acura-rlx-sport-hybrid-advance-package.0.jpg" alt="Acura Rlx Sport hybrid advance package" src="./Damir Angular Car Project_files/acura-rlx-sport-hybrid-advance-package.0.jpg"></a>
+          <a href="http://localhost:8000/app/index.html#/phones/acura-rlx-sport-hybrid-advance" class="ng-binding">Acura Rlx Sport hybrid advance package</a>
+          <p class="ng-binding">Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.</p>
+          <p class="ng-binding">$66890</p>
+          <button ng-click="addToCart(phone);">Add to cart</button>
+        </li><!-- end ngRepeat: phone in phones | filter:query | orderBy:orderProp -->
+      </ul>
+
+    </div>
+  </div>
+</div>
+<!-- ngIf: cart.length --><div ng-if="cart.length" class="shopping-cart ng-scope" style="">
+  <h2 class="ng-binding">3 items in cart, 2051652$</h2>
+
+  <!-- ngRepeat: phone in cart --><span class="cart-item th radius ng-scope" ng-repeat="phone in cart">
+    <img ng-src="img/phones/lamborghini-aventador.0.jpg" title="Lamborghini Aventador" src="./Damir Angular Car Project_files/lamborghini-aventador.0.jpg">
+    <span class="badge ng-binding" ng-show="phone.quantity &gt; 1" style="">
+      x2
+    </span>
+  </span><!-- end ngRepeat: phone in cart --><span class="cart-item th radius ng-scope" ng-repeat="phone in cart">
+    <img ng-src="img/phones/bmw-m6-gran-coupe-base.0.jpg" title="BMW M6 Gran Coupe Base" src="./Damir Angular Car Project_files/bmw-m6-gran-coupe-base.0.jpg">
+    <span class="badge ng-binding ng-hide" ng-show="phone.quantity &gt; 1">
+      x1
+    </span>
+  </span><!-- end ngRepeat: phone in cart --><span class="cart-item th radius ng-scope" ng-repeat="phone in cart">
+    <img ng-src="img/phones/ram-2500-slt.0.jpg" title="RAM 2500 SLT" src="./Damir Angular Car Project_files/ram-2500-slt.0.jpg">
+    <span class="badge ng-binding ng-hide" ng-show="phone.quantity &gt; 1">
+      x1
+    </span>
+  </span><!-- end ngRepeat: phone in cart -->
+
+  <button ng-click="checkout();">Checkout</button>
+</div><!-- end ngIf: cart.length -->
+</div>
+  </div>
+
+
+
+<iframe name="stripeXDM_default676110_provider" id="stripeXDM_default676110_provider" src="./Damir Angular Car Project_files/channel.html" frameborder="0" style="position: absolute; top: -2000px; left: 0px;"></iframe></body></html>

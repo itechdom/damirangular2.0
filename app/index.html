@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="productcatApp">
+<head>
+  <meta charset="utf-8">
+  <title>Damir Angular Car Project</title>
+    <link rel="stylesheet" href="dist/main.min.css">
+    <script src="dist/vendor.min.js"></script>
+    <script src="dist/main.min.js"></script>
+  </head>
+</head>
+<body layout>
+  <md-sidenav class="site-sidenav md-primary" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')" flex="20">
+    <header class="nav-header">
+      <a class="docs-logo" href="/">
+            <img src="../img/icons/angular-logo.svg" alt="">
+            <h1 class="docs-logotype md-heading">Damir Angular</h1>
+      </a>
+    </header>
+    <md-content flex="" role="navigation" class="flex">
+      <md-button href="http://pravaprica.ba/" target="_blank" class="">Latest Project</md-button>
+      <md-button href="https://www.linkedin.com/in/damirdurmo" target="_blank"  class="">Linkedin Profile</md-button>
+      <md-button href="http://www.roysupply.com/" target="_blank"  class="">Compucast Projects</md-button>
+    </md-content>
+  </md-sidenav>
+  <md-content class="ui-view" flex-gt-sm="80">
+  </md-content >
+      <ngcart-summary>
+      </ngcart-summary>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<md-toolbar class="shopping-cart" layout="row" layout-align="end center" ng-controller="ProductListCtrl">
+  <div><span style="margin-right:20px;">{{ ngCart.getTotalItems() }}
+      <ng-pluralize count="ngCart.getTotalItems()" when="{1: 'item', 'other':'items'}"></ng-pluralize></span>
+      <span>{{ ngCart.totalCost() | currency }}</span>
+  </div>
+    <div>
+    <md-button class="md-raised md-secondary" ng-click="showPaymentDialog($event)">Checkout</md-button>
+    </div>
+</md-toolbar>

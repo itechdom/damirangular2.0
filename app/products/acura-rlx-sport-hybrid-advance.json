@@ -1,0 +1,23 @@
+{
+    "mileage":"10",
+    "color":"Graphite Luster Metalic",
+    "vin":"JH4KC2F9XGC000225",
+    "transmission":"7-Speed Automatic with Auto-Shift",
+    "doors":"4",
+    "bodystyle":"Sedan",
+    "stock":"16775",
+    "fuel":"Gasoline Hybrid",
+    "drivetrain":"AWD",
+    "engine":"3.5L V6 24V GDI SOHC Hybrid",
+    "sellersnotes": "At Mile High Acura, your satisfaction is our number one priority. With over 300 new and used vehicles to choose from, we are certain to find the RIGHT one for YOU. Thanks for choosing Mile High Acura.",
+    "id": "acura-rlx-sport-hybrid-advance",
+    "images": [
+        "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "img/products/acura-rlx-sport-hybrid-advance-package.1.jpg",
+        "img/products/acura-rlx-sport-hybrid-advance-package.2.jpg",
+        "img/products/acura-rlx-sport-hybrid-advance-package.3.jpg",
+        "img/products/acura-rlx-sport-hybrid-advance-package.4.jpg"
+    ],
+    "name": "Accura RLX Sport Hybrid Advance Package",
+    "price":"66890"
+}
