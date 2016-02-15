@@ -1,0 +1,74 @@
+[
+    {
+        "year": "2016",
+        "id": "acura-rlx-sport-hybrid-advance",
+        "imageUrl": "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "name": "Acura Rlx Sport hybrid advance package",
+        "snippet": "Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.",
+        "price":"66890"
+    },
+    {
+        "year": "2015",
+        "id": "lamborghini-aventador",
+        "imageUrl": "img/products/lamborghini-aventador.0.jpg",
+        "name": "Lamborghini Aventador",
+        "snippet": "Bianco Isis, 2 door, AWD, Coupe, 7-Speed Automatic with Auto-Shift, 6.5L V12 48V MPFI DOHC, Stock# 000I0028",
+        "price":"442255"
+    },
+    {
+        "year": "2013",
+        "id": "porsche-cayenne-turbo-s",
+        "imageUrl": "img/products/porsche-cayenne-turbo-s.0.jpg",
+        "name": "Porsche Cayenne Turbo S",
+        "snippet": "White, 4 door, AWD, SUV, 8-Speed Automatic, 4.8L V8 32V GDI DOHC Twin Turbo, Stock# G14384.",
+        "price":"137632"
+    },
+    {
+        "year": "2014",
+        "id": "bmw-m6-gran-coupe-base",
+        "imageUrl": "img/products/bmw-m6-gran-coupe-base.0.jpg",
+        "name": "BMW M6 Gran Coupe Base",
+        "snippet": "Singapore Gray Metallic, 4 door, RWD, Sedan, 7-Speed Automatic with Auto-Shift, 4.4L V8 32V GDI DOHC Twin Turbo, Stock# 1BPD41007",
+        "price":"115560"
+    },
+    {
+        "year": "2014",
+        "id": "ram-2500-slt",
+        "imageUrl": "img/products/ram-2500-slt.0.jpg",
+        "name": "RAM 2500 SLT",
+        "snippet": "Flame Red Clearcoat, 4 door, 4WD, Crew Cab Pickup, 6-Speed Automatic, 6.7L I6 24V DDI OHV Turbo Diesel, Stock# 7664N.",
+        "price":"51582"
+    },
+    {
+        "year": "2016",
+        "id": "acura-rlx-sport-hybrid-advance",
+        "imageUrl": "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "name": "Acura Rlx Sport hybrid advance package",
+        "snippet": "Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.",
+        "price":"66890"
+    },
+    {
+        "year": "2016",
+        "id": "acura-rlx-sport-hybrid-advance",
+        "imageUrl": "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "name": "Acura Rlx Sport hybrid advance package",
+        "snippet": "Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.",
+        "price":"66890"
+    },
+    {
+        "year": "2016",
+        "id": "acura-rlx-sport-hybrid-advance",
+        "imageUrl": "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "name": "Acura Rlx Sport hybrid advance package",
+        "snippet": "Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.",
+        "price":"66890"
+    },
+    {
+        "year": "2016",
+        "id": "acura-rlx-sport-hybrid-advance",
+        "imageUrl": "img/products/acura-rlx-sport-hybrid-advance-package.0.jpg",
+        "name": "Acura Rlx Sport hybrid advance package",
+        "snippet": "Graphite Luster Metallic, 4 door, AWD, Sedan, 7-Speed Automatic with Auto-Shift, 3.5L V6 24V GDI SOHC Hybrid, Stock# 16775.",
+        "price":"66890"
+    }
+]

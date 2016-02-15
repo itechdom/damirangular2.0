@@ -1,0 +1,23 @@
+{
+    "mileage":"780",
+    "color":"Flame Red Clearcoat",
+    "vin":"3C6UR5DL6EG322659",
+    "transmission":"6-Speed Automatic with Auto-Shift",
+    "doors":"4",
+    "bodystyle":"Sedan",
+    "stock":"1BPD41007",
+    "fuel":"Diesel",
+    "drivetrain":"4WD",
+    "engine":"6.7L I6 24V DDI OHV Turbo Diesel",
+    "sellersnotes": "Visit Cherry Creek Dodge and you will experience world class service. Our knowledgeable and experienced staff is committed to your satisfaction, and we strive to exceed your expectations. We are a greater Denver area Dodge and Ram dealer with inventory and pricing that will get you into your dream car today.",
+    "id": "ram-2500-slt",
+    "images": [
+        "img/products/ram-2500-slt.0.jpg",
+        "img/products/ram-2500-slt.1.jpg",
+        "img/products/ram-2500-slt.2.jpg",
+        "img/products/ram-2500-slt.3.jpg",
+        "img/products/ram-2500-slt.4.jpg"
+    ],
+    "name": "RAM 2500 SLT",
+    "price":"51582"
+}
